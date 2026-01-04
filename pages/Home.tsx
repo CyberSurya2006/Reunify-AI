@@ -9,9 +9,9 @@ export const Home: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setStats(prev => ({
-        totalLost: Math.min(prev.totalLost + 5, 1240),
-        totalFound: Math.min(prev.totalFound + 4, 980),
-        totalResolved: Math.min(prev.totalResolved + 3, 850),
+        totalLost: Math.min(prev.totalLost + 5, 12),
+        totalFound: Math.min(prev.totalFound + 4, 8),
+        totalResolved: Math.min(prev.totalResolved + 3, 5),
       }));
     }, 20);
     return () => clearInterval(interval);
