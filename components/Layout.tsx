@@ -256,7 +256,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       <footer className="bg-white border-t border-slate-200 py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-slate-400 text-sm">© 2024 Reunify. Built with Gemini AI.</p>
+          <p className="text-slate-400 text-sm">© 2026 Reunify. Built with Gemini AI.</p>
         </div>
       </footer>
     </div>

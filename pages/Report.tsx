@@ -257,7 +257,7 @@ export const Report: React.FC = () => {
         <p className="text-slate-500 mt-2">
           {isLost 
             ? "Help us find your item by providing as many details as possible." 
-            : "Thank you for being a good samaritan. Let's reunite this item with its owner."}
+            : "Thank you for being a good person. Let's reunite this item with its owner."}
         </p>
       </div>
 
