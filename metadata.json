@@ -1,0 +1,9 @@
+{
+  "name": "Reunify",
+  "description": "A Lost & Found AI web app powered by Gemini. Report items, find matches, and reunite with your belongings.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
